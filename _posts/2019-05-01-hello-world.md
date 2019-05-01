@@ -3,4 +3,4 @@ layout: post
 title: Hello again, world!
 ---
 
-![hello world](public/img/hello.png "Hello World")
+![hello world]({{site.url}}public/img/hello.png "Hello World")
