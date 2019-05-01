@@ -5,7 +5,7 @@ permalink: pretty
 title: nkhil
 tagline:
 url: http://getpoole.com
-paginate: 3
+paginate: 10
 baseurl: ""
 
 # Assets
