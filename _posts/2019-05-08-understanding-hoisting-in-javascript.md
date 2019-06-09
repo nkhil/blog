@@ -32,7 +32,7 @@ The reason a is undefined is that V8 'hoists' all the variable declarations and 
 
 V8 behaves as if the variable was declared on top of the page before anything got assigned, and hence the name - Hoisting.
 
-## Functions are also hoisted
+# Functions are also hoisted
 
 In the example below:
 
@@ -46,7 +46,7 @@ console.log("Hello");
 
 the entire function sayHello is hoisted and placed in memory, which is why you can call it before the declaration, and it still works as if it was declared before it was called.
 
-## ..but function assignments aren't hoisted
+# ..but function assignments aren't hoisted
 
 Let's take the same code from above, make it an anonymous function and assign it to the variable sayHello and then call it before the assignment.
 
@@ -60,7 +60,7 @@ console.log("Hello");
 
 Here, the variable sayHello is getting hoisted, but its value at the time of execution is `undefined`.
 
-## Quick aside on vars and scope
+# Quick aside on vars and scope
 
 This isn't necessarily related to hoisting, but here's a surprising thing I learned about the scope of vars inside for loops.
 
@@ -89,7 +89,7 @@ console.log('value of i after', i);
 //=> ReferenceError: i is not defined
 {% endhighlight %}
 
-## const and let
+# const and let
 
 Interestingly, const and let are not hoisted the same way var is.
 
